@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="802bb8189e647207d37da3357402f7461c3474a022b80953d978f9d93478c4b4.html">Title Of Your Feature</a></span>
+                > <span class="truncate-60"><a
+                    href="1db2a3fe30b10dbf042a7fb162117ff4e51d9ae5e0a5f9b05a58499a115bd2b3.html">Prueba 5 Facebook Con Gradle </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 25-07-2018 09:01</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Title Of Your Feature</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                I want to use this template for my feature file
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="bca18eb34184f466810ee7a90d04748e21a2df6dea7311083e75ce6b8ed2a2f5.html">Tag1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="ec3644e9342d32fe427f28bfa83a3084b3999493dbafdd95c2d0cbb278b71b7f.html">Tag
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Prueba 5 Facebook Con Gradle
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="061da8bebab70fdacd795bac5b6a530e38194f73a644fd613fa6816b359573e3.png" title="Given El usuario  abre el navegador en facebook.com" width="1600"/>
+                <img src="4f753817820756007fac9ed2fb6637ad6c2f885bfe21356918a4ca13df616a3b.png" title="Given El usuario  abre el navegador en facebook.com" width="1600"/>
+                <img src="061da8bebab70fdacd795bac5b6a530e38194f73a644fd613fa6816b359573e3.png" title="Juanita goes to #OpenTheBrowser" width="1600"/>
+                <img src="89e5193ee56f38bcc844f34d78623775fd798f4e588d4500eb0d9b6040c8f760.png" title="Juanita goes to #OpenTheBrowser" width="1600"/>
+                <img src="061da8bebab70fdacd795bac5b6a530e38194f73a644fd613fa6816b359573e3.png" title="Juanita opens the Facebook login" width="1600"/>
+                <img src="4f753817820756007fac9ed2fb6637ad6c2f885bfe21356918a4ca13df616a3b.png" title="Juanita opens the Facebook login" width="1600"/>
+                <img src="89e5193ee56f38bcc844f34d78623775fd798f4e588d4500eb0d9b6040c8f760.png" title="When El usuario ingresas su correo 'usuario' y su contrasena 'pass'" width="1600"/>
+                <img src="977dcc58fd0cdd1cbfc8ebe3022bce49910e03462d92d1de443cf6177a670329.png" title="When El usuario ingresas su correo 'usuario' y su contrasena 'pass'" width="1600"/>
+                <img src="7d7eaf3212021b0c46f43afe6bc6e4156816c6b295c5facd2ea87cfaf5d531b1.png" title="Juanita ingresar credenciales " width="1600"/>
+                <img src="89e5193ee56f38bcc844f34d78623775fd798f4e588d4500eb0d9b6040c8f760.png" title="Juanita enters '3508650075' into Usuario Facebook" width="1600"/>
+                <img src="73a6db0b414c81d82ed44694071605996a0c93014b3e59365a43819d66096b67.png" title="Juanita enters '3508650075' into Usuario Facebook" width="1600"/>
+                <img src="08ba458a0c95ea5a4d1d2202601349dfc6de1306b35d9bb1b09871a276993de8.png" title="Juanita enters 'Dfc25f9...dextroyeer.danny' into Pass Facebook" width="1600"/>
+                <img src="02c9af6510339299bce02cbcbcf9648d43614afd02cbd4be823ab7649ecbcf32.png" title="Juanita enters 'Dfc25f9...dextroyeer.danny' into Pass Facebook" width="1600"/>
+                <img src="9ccd4f875729e83409e6b8bda50e81281c255e19c56f294a678c6133e44adbab.png" title="When El usuario busca las personas de la lista e ingresa a su perfil" width="1600"/>
+                <img src="d901d233f39a474b743ef9fa4f63a7ceb423b822e8fb09c8b2d86e46e1485669.png" title="When El usuario busca las personas de la lista e ingresa a su perfil" width="1600"/>
+                <img src="436b7f32330c989a5a93c50180d481b302e42c06eee658c6d5084cfcf74cbb33.png" title="Juanita buscar por nombre  " width="1600"/>
+                <img src="3fb3d3518daafadca75dadd0abce97672d55cb55d07a783cb0a94f18ff8a16d6.png" title="Juanita buscar por nombre  " width="1600"/>
+                <img src="30d931ff6abe081fd134cd27158a80f64071025d8e88ba7c0c35def806ecce6f.png" title="Juanita enters 'Laura dino saurio' into Barra de busqueda Facebook" width="1600"/>
+                <img src="3e281383a9fe6ca7e5f9da6d344244f8e4ca6537bdfe242ecb4e858eeba9a00a.png" title="Juanita enters 'Laura dino saurio' into Barra de busqueda Facebook" width="1600"/>
+                <img src="4994186a94e81b45faf8864baf68785e99b1aaac5631f787f81ace3edf6b3b47.png" title="Juanita clicks on Barra de busqueda People" width="1600"/>
+                <img src="8ea4ccf6eef072fe434e76e62ac969573b3a6961fd7b2cc22caf24080e144676.png" title="Juanita clicks on Barra de busqueda People" width="1600"/>
+                <img src="7f93baa1f1596df236530f23fd8cd8e2f64b3cd9d91961fefe06ded3d9040d7e.png" title="Juanita clicks on Primer resultado" width="1600"/>
+                <img src="281e2ecdd113134e230f75a01a373214ffab183096bbe306332078ec2ac5f1f5.png" title="Juanita clicks on Primer resultado" width="1600"/>
+                <img src="1e3dd876ea08cad2d4955dc03e3e508247013a779f6b39604532bd472824766b.png" title="Juanita buscar por nombre  " width="1600"/>
+                <img src="eaf6c6af405addbbbc4c61a536195543a4427a3947aaf80882b1866e616a8ab7.png" title="Juanita buscar por nombre  " width="1600"/>
+                <img src="f71e8e03daf3dcc9875a9111404da52e94a71b1421f77edd614f1c1ac5f95962.png" title="Juanita enters 'Juan Sebastian R' into Barra de busqueda Facebook" width="1600"/>
+                <img src="df7345bd0d7c10f6524a1dcbd785ccc3727a61552289633670856e6a23db7c88.png" title="Juanita enters 'Juan Sebastian R' into Barra de busqueda Facebook" width="1600"/>
+                <img src="babde4b11371e118381f69132f9347bfcef828538c985a4f91595537713f07fa.png" title="Juanita clicks on Barra de busqueda People" width="1600"/>
+                <img src="9314ab0f2be54a1e3ebab333739039a7b464e20a842fc9b013c3039ca18c6381.png" title="Juanita clicks on Barra de busqueda People" width="1600"/>
+                <img src="cadf394d2ea184e5e0dc3eb65820c2d2ec8607df86ae3e40f80877add15c7baf.png" title="Juanita clicks on Primer resultado" width="1600"/>
+                <img src="fba09fb975e1eb3ed4ff31694139dd39052059461889d8caaaf43c5f8d950f24.png" title="Juanita clicks on Primer resultado" width="1600"/>
+                <img src="ca4cab78838ec2d07de7177df2c573933ae328b279a5333611381893fefb066e.png" title="Juanita buscar por nombre  " width="1600"/>
+                <img src="d94b75564687193172896dfe3f5d4ff19390ccb0d0ec0fbcfd737bbb5ddcbf57.png" title="Juanita buscar por nombre  " width="1600"/>
+                <img src="ca4cab78838ec2d07de7177df2c573933ae328b279a5333611381893fefb066e.png" title="Juanita enters 'Tania Bonilla' into Barra de busqueda Facebook" width="1600"/>
+                <img src="8458f1bbbca46b1433f5fe736cecd178ed0833d2b9c19b514f8330a1745d7691.png" title="Juanita enters 'Tania Bonilla' into Barra de busqueda Facebook" width="1600"/>
+                <img src="41a314e8cb31d1b84114b35e12b3e8c2fd8f4f2528904198ac9f35b6afbed3e3.png" title="Juanita clicks on Barra de busqueda People" width="1600"/>
+                <img src="86fef750f585a6cb3ca53a944ca99fbb03cc596fc501f31123a6929b17a599bb.png" title="Juanita clicks on Barra de busqueda People" width="1600"/>
+                <img src="619992f336be7536919ff4eb6168ee59c87ef115c0f5eddadb6bd35dfb52d58c.png" title="Juanita clicks on Primer resultado" width="1600"/>
+                <img src="1c604a86c4823facdcdfa8472bf6a5899efcb928c3c108610f80199011e354b4.png" title="Juanita clicks on Primer resultado" width="1600"/>
+                <img src="d94b75564687193172896dfe3f5d4ff19390ccb0d0ec0fbcfd737bbb5ddcbf57.png" title="Juanita buscar por nombre  " width="1600"/>
+                <img src="72bf99cfe1293b9f38dadb95bda3db97db4cf99ce2e26204e5793e979f768b94.png" title="Juanita buscar por nombre  " width="1600"/>
+                <img src="d94b75564687193172896dfe3f5d4ff19390ccb0d0ec0fbcfd737bbb5ddcbf57.png" title="Juanita enters 'Damaris Sterling' into Barra de busqueda Facebook" width="1600"/>
+                <img src="c72252c13cadcea1cb341e718e2d18669ba3ce4e64cadf6d59e5f466e58df184.png" title="Juanita enters 'Damaris Sterling' into Barra de busqueda Facebook" width="1600"/>
+                <img src="c7b29fa0d00c116c952d194da05bb9ba99fa5faff60dd70e8f76386de80eb117.png" title="Juanita clicks on Barra de busqueda People" width="1600"/>
+                <img src="16c23fbb5113311c6603052942fbf2693b4ef471e497baac896088a1e2f1d25a.png" title="Juanita clicks on Barra de busqueda People" width="1600"/>
+                <img src="672ed5fc56259f50250f9df843b1d411adbdda157eea6fb943f5f6f66216da58.png" title="Juanita clicks on Primer resultado" width="1600"/>
+                <img src="b105e955a97a0729569e6be0b77487de5d63e1687e93dd4aa7b5682642be9074.png" title="Juanita clicks on Primer resultado: <span class='success-color'>SUCCESS</span>" width="1600"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

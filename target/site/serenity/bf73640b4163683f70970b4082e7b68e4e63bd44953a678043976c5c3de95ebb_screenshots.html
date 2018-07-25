@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="802bb8189e647207d37da3357402f7461c3474a022b80953d978f9d93478c4b4.html">Title Of Your Feature</a></span>
+                > <span class="truncate-60"><a
+                    href="bf73640b4163683f70970b4082e7b68e4e63bd44953a678043976c5c3de95ebb.html">Title of your scenario </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-07-2018 08:55</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Title Of Your Feature</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                I want to use this template for my feature file
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="bca18eb34184f466810ee7a90d04748e21a2df6dea7311083e75ce6b8ed2a2f5.html">Tag1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="ec3644e9342d32fe427f28bfa83a3084b3999493dbafdd95c2d0cbb278b71b7f.html">Tag
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
+                            <span class="test-case-title">
+                                <span class="error-color">Title of your scenario
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="Null pointer exception">
+                            Null pointer exception
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    java.lang.NullPointerException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    co.com.accenture.Facebook.gradle.util.ExcelManager.cargarDatos(ExcelManager.java
+                                    :104) <br>
+                                    co.com.accenture.Facebook.gradle.stepdefinition.FacebookSearchStepDefinitions.buscarPersona(FacebookSearchStepDefinitions.java
+                                    :69) <br>
+                                    ✽.El usuario busca las personas de la lista e ingresa a su perfil(src.test.resources/features/Facebook.feature
+                                    :9) <br>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource9068494717190267009.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="061da8bebab70fdacd795bac5b6a530e38194f73a644fd613fa6816b359573e3.png" title="Given El usuario  abre el navegador en facebook.com" width="1600"/>
+                <img src="65cf89dcfa80a70c4eff813a134b86421c8cd8e37d202704f0e285c68c4ae779.png" title="Given El usuario  abre el navegador en facebook.com" width="1600"/>
+                <img src="061da8bebab70fdacd795bac5b6a530e38194f73a644fd613fa6816b359573e3.png" title="Juanita goes to #OpenTheBrowser" width="1600"/>
+                <img src="65cf89dcfa80a70c4eff813a134b86421c8cd8e37d202704f0e285c68c4ae779.png" title="Juanita goes to #OpenTheBrowser" width="1600"/>
+                <img src="061da8bebab70fdacd795bac5b6a530e38194f73a644fd613fa6816b359573e3.png" title="Juanita opens the Facebook login" width="1600"/>
+                <img src="b5b1e5677ca2053a4b0b7541949f0f0d34aba1ddb2053befc9392071d1c71905.png" title="Juanita opens the Facebook login" width="1600"/>
+                <img src="b5b1e5677ca2053a4b0b7541949f0f0d34aba1ddb2053befc9392071d1c71905.png" title="When El usuario ingresas su correo 'nilson-sn@outlook.com' y su contrasena 'pass'" width="1600"/>
+                <img src="eeec52fb8f576c370fa3d15efdb1946855c1d7725fd396f75d9a9a9446e7ae7f.png" title="When El usuario ingresas su correo 'nilson-sn@outlook.com' y su contrasena 'pass'" width="1600"/>
+                <img src="dc0dd997a10d63c79f00a2e4438eb05989fb269554677736c9b954bb1db6e7d8.png" title="Juanita ingresar credenciales " width="1600"/>
+                <img src="b5b1e5677ca2053a4b0b7541949f0f0d34aba1ddb2053befc9392071d1c71905.png" title="Juanita enters 'luis-fernando.1994@hotmail.com' into Usuario Facebook" width="1600"/>
+                <img src="ee4b693bb42199e30faf3c820ff234641aff16c1aa6e2ad9bdfe9b0f4faccdf7.png" title="Juanita enters 'luis-fernando.1994@hotmail.com' into Usuario Facebook" width="1600"/>
+                <img src="ac30b80b85a4aa327272445b7b3741b41ed77cc3938259389a0b4443382112df.png" title="Juanita enters '1007338861luis' into Pass Facebook" width="1600"/>
+                <img src="dc0dd997a10d63c79f00a2e4438eb05989fb269554677736c9b954bb1db6e7d8.png" title="Juanita enters '1007338861luis' into Pass Facebook" width="1600"/>
+                <img src="b68614bb38bc6c72c386ec829d7142514ff329aa1abaf88c65300a208a4353f3.png" title="When El usuario busca las personas de la lista e ingresa a su perfil" width="1600"/>
+                <img src="37ea7ec57fd6373d909fbea8bf2abc054b1c986c78a0fdd365f4bf95192c4827.png" title="When El usuario busca las personas de la lista e ingresa a su perfil: <span class='error-color'>ERROR</span>" width="1600"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
